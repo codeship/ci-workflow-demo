@@ -1,0 +1,9 @@
+casperjs:
+  build: .
+  links:
+    - jekyll
+
+jekyll:
+  build:
+    image: codeship/sales-demo
+    dockerfile_path: Dockerfile.jekyll
